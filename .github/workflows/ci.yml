@@ -1,0 +1,31 @@
+Marcos:
+# git-work
+
+Documentación del repositorio colaborativo de la AE1.
+
+- [Portada del sitio](../index.html)
+- [Repositorio remoto](https://github.com/TU_USUARIO/git-work)
+
+Marcos:
+name: Construir la documentación
+
+on:
+push:
+branches: [main]
+pull_request:
+workflow_dispatch:
+
+jobs:
+docs:
+runs-on: ubuntu-latest
+steps:
+- name: Descargar el repositorio
+uses: actions/checkout@v4
+- name: Preparar Python
+uses: actions/setup-python@v5
+with:
+python-version: "3.12"
+- name: Instalar MkDocs
+run: pip install mkdocs
+- name: Construir el sitio
+run: mkdocs build --strict
