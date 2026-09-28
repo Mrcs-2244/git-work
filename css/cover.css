@@ -7,8 +7,9 @@
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-color: #333;
-background-color: purple;
+color: #fff;
+background-color: green;
+box-shadow: 0 4px 8px #A1A1A1;
 text-shadow: none; /* Prevent inheritance from body */
 }
 
