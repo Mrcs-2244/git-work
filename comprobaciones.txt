@@ -1,0 +1,27 @@
+* 446092d (HEAD -> main, origin/main) Completado el README.md
+* d512de3 Corregido enlace en docs
+* 7d69db4 Corregidas tabulaciones en ci.yml
+* 2ded48d Corregido el .yml
+*   062eb30 (tag: 0.1.0, fix-button-style) Resuelto conflicto del boton, permanece verde y con sombra.
+|\  
+| *   da1ebea Merge pull request #4 from Mrcs-2244/green-button
+| |\  
+| | * 0a6c0d6 Cambiado el color del boton a verde.
+| |/  
+* / 0da6a04 Cambiar color del boton a lila
+|/  
+*   61a40eb Merge pull request #2 from Mrcs-2244/custom-text
+|\  
+| * 49538bb (origin/custom-text) Ajustado titulo principal durante la revision.
+| * 9de7cf7 Sustitucion del titulo de la startup
+|/  
+* 41a47e7 Adjunto documentacion con MKDocs e integracion continua
+* d0961e3 Creada pagina de la Startup y su hoja de estilo
+* 0464e43 Anadida licencia de codigo abierto MIT
+* 5cc2506 Creado el archivo .gitignore
+* 54c76c7 Creacion del README inicial con su estructura
+0.1.0           Version inicial 0.1.0 tras resolver estilos y portada.
+3	CLOSED	Personalizar estilo del botno principal		2026-09-28T23:33:01Z
+1	CLOSED	Add custom text for startup contents		2026-09-28T23:02:10Z
+4	Boton principal en color verde	green-button	MERGED	2026-09-28T23:29:22Z
+2	Texto personalizado para la portada	custom-text	MERGED	2026-09-28T22:49:22Z
