@@ -1,12 +1,3 @@
-Marcos:
-# git-work
-
-Documentación del repositorio colaborativo de la AE1.
-
-- [Portada del sitio](../index.html)
-- [Repositorio remoto](https://github.com/TU_USUARIO/git-work)
-
-Marcos:
 name: Construir la documentación
 
 on:
